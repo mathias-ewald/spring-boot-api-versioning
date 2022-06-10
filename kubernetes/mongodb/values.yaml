@@ -1,0 +1,17 @@
+auth:
+  enabled: true
+  rootUser: root
+  database: api-versioning
+  username: api-versioning
+  password: test1234
+architecture: standalone
+persistence:
+  enabled: true
+  storageClass: ""
+resources:
+  limits:
+    cpu: 1000m
+    memory: 1000Mi
+  requests:
+    cpu: 0m
+    memory: 0Mi
